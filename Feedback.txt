@@ -1,0 +1,12 @@
+
+Question 1: Split proportion is incorrect (should be 80/20, not 70/30 as implemented): -3,
+Pipeline only wraps the model; preprocessing not done inside pipeline: -5, 
+Does not compute days-since-join correctly; uses today’s date instead of dataset reference date: -4,
+Only MSE is reported; rubric requires two measures (MSE/MAE/RMSE/ R²), Interpretation missing: -3,
+CV computed correctly, but no interpretation: -1,
+Best parameters and best score not printed: -2
+
+Question 2: No linear regression model, no comparison, no interpretation: -10
+Question 3: Pipeline built incorrectly: categorical encoding missing; numeric scaling missing, Residual steps incomplete, Classification report is correct, but preprocessing errors affect model validity: -4
+
+Total: 68/100
